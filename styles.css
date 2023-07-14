@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@400;600&family=Kalam:wght@700&family=Kanit&family=Kaushan+Script&family=Merriweather&family=Montserrat:wght@400;500&family=Poor+Story&family=Poppins:wght@400;700&family=Roboto&family=Sacramento&family=Sigmar&family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bs-dark-color : #1a1d20;
+    --bs-dark-primary : #1c1c1c;
+    --bs-main-color : #fff;
+    --bs-primary-color : #c6c6c6;
+    --bs-secondary-color : #29a9fd;
+    --bs-supporting-color : #c850c0;
+}
+
+h1{
+    font-size: 3.8rem;
+  
+}
+
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+
+}
+.navbar{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    line-height: 1.55rem;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.hero-video--section{
+    max-width: 100%;
+    height: auto;
+    width: 60%;
+    border-radius: 2rem;
+   float: right;
+}
+
+.title-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.nav-link{
+    color: var(--bs-main-color);
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: var(--bs-secondary-color);
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+
+.navbar-brand{
+    color: white;
+}
